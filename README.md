@@ -20,6 +20,52 @@ O sistema permite cadastrar, listar, buscar, atualizar e excluir contas, além d
 - Consultar saldo
 - Salvar os dados localmente em arquivo JSON
 
+## Como executar o projeto
+
+Para executar o projeto, é necessário ter o .NET instalado na máquina.
+Você pode baixar o .NET pelo site oficial da Microsoft:
+
+(https://dotnet.microsoft.com/en-us/download)
+
+Verifique se o .NET está instalado:
+
+```bash
+dotnet --version
+```
+
+Depois, entre na pasta do projeto:
+
+```bash
+cd contaBancaria
+```
+
+Restaure as dependências do projeto:
+
+```bash
+dotnet restore
+```
+
+Execute o projeto:
+
+```bash
+dotnet run
+```
+## Estrutura do projeto
+
+```text
+contaBancaria/
+├── controller/
+│   └── ContaController.cs
+├── models/
+│   ├── Conta.cs
+│   ├── ContaCorrente.cs
+│   └── ContaPoupanca.cs
+├── repository/
+│   └── IContaRepository.cs
+├── Menu.cs
+└── contaBancaria.csproj
+```
+
 ## Tipos de conta
 
 ### Conta Corrente
@@ -66,53 +112,6 @@ contas.json
 Esse arquivo é criado automaticamente quando uma conta é cadastrada.
 
 Como o arquivo `contas.json` armazena dados locais de teste, ele não precisa ser enviado para o GitHub.
-
-## Estrutura do projeto
-
-```text
-contaBancaria/
-├── controller/
-│   └── ContaController.cs
-├── models/
-│   ├── Conta.cs
-│   ├── ContaCorrente.cs
-│   └── ContaPoupanca.cs
-├── repository/
-│   └── IContaRepository.cs
-├── Menu.cs
-└── contaBancaria.csproj
-```
-
-## Como executar o projeto
-
-Para executar o projeto, é necessário ter o .NET instalado na máquina.
-Você pode baixar o .NET pelo site oficial da Microsoft:
-
-(https://dotnet.microsoft.com/en-us/download)
-
-Verifique se o .NET está instalado:
-
-```bash
-dotnet --version
-```
-
-Depois, entre na pasta do projeto:
-
-```bash
-cd contaBancaria
-```
-
-Restaure as dependências do projeto:
-
-```bash
-dotnet restore
-```
-
-Execute o projeto:
-
-```bash
-dotnet run
-```
 
 ## Menu do sistema
 
