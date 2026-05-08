@@ -6,20 +6,6 @@ Projeto desenvolvido em C# com .NET para simular um sistema simples de gerenciam
 
 O sistema permite cadastrar, listar, buscar, atualizar e excluir contas, além de realizar operações como depósito, saque, transferência e consulta de saldo.
 
-## Funcionalidades
-
-- Criar conta corrente
-- Criar conta poupança
-- Listar todas as contas
-- Procurar conta pelo número
-- Depositar valor em uma conta
-- Sacar valor de uma conta
-- Transferir valor entre contas
-- Atualizar dados da conta
-- Deletar uma conta
-- Consultar saldo
-- Salvar os dados localmente em arquivo JSON
-
 ## Como executar o projeto
 
 Para executar o projeto, é necessário ter o .NET instalado na máquina.
@@ -65,6 +51,20 @@ contaBancaria/
 ├── Menu.cs
 └── contaBancaria.csproj
 ```
+
+## Funcionalidades
+
+- Criar conta corrente
+- Criar conta poupança
+- Listar todas as contas
+- Procurar conta pelo número
+- Depositar valor em uma conta
+- Sacar valor de uma conta
+- Transferir valor entre contas
+- Atualizar dados da conta
+- Deletar uma conta
+- Consultar saldo
+- Salvar os dados localmente em arquivo JSON
 
 ## Tipos de conta
 
