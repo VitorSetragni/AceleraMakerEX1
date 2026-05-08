@@ -80,9 +80,7 @@ contaBancaria/
 ├── repository/
 │   └── IContaRepository.cs
 ├── Menu.cs
-├── contaBancaria.csproj
-├── .gitignore
-└── README.md
+└── contaBancaria.csproj
 ```
 
 ## Como executar o projeto
