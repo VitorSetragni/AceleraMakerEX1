@@ -86,15 +86,15 @@ contaBancaria/
 ## Como executar o projeto
 
 Para executar o projeto, é necessário ter o .NET instalado na máquina.
+Você pode baixar o .NET pelo site oficial da Microsoft:
+
+(https://dotnet.microsoft.com/en-us/download)
 
 Verifique se o .NET está instalado:
 
 ```bash
 dotnet --version
 ```
-Você pode baixar o .NET pelo site oficial da Microsoft:
-
-(https://dotnet.microsoft.com/en-us/download)
 
 Depois, entre na pasta do projeto:
 
