@@ -85,10 +85,27 @@ contaBancaria/
 
 ## Como executar o projeto
 
-Entre na pasta do projeto:
+Para executar o projeto, é necessário ter o .NET instalado na máquina.
+
+Verifique se o .NET está instalado:
+
+```bash
+dotnet --version
+```
+Você pode baixar o .NET pelo site oficial da Microsoft:
+
+(https://dotnet.microsoft.com/en-us/download)
+
+Depois, entre na pasta do projeto:
 
 ```bash
 cd contaBancaria
+```
+
+Restaure as dependências do projeto:
+
+```bash
+dotnet restore
 ```
 
 Execute o projeto:
